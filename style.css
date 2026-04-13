@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap");
+
+body {
+    margin: 0;
+    font-family: "DynaPuff", sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 250px;
+    padding: 40px;
+    background-color:rgb(111, 119, 228);
+    font-size: 50px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+    border: 2px solid black;
+    border-radius: 2rem;
+    background-color: white;
+    gap: 10px;
+}
+
+nav a:link,
+nav a:visited {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 1rem;
+    color: black;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: rgb(111, 119, 228);
+    color: white;
+    cursor: pointer;
+}
+
+.main {
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-size: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    background-color: rgb(111, 119, 228);
+    color: whitesmoke;
+    height: 100px;
+    padding: 0;
+}
